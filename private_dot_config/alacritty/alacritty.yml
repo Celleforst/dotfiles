@@ -31,8 +31,8 @@
   # least `2`, while using a value of `0` for columns and lines will fall back
   # to the window manager's recommended size
   #dimensions:
-  #  columns: 0
-  #  lines: 0
+   columns: 75
+   lines: 24
 
   # Window position (changes require restart)
   #
@@ -230,7 +230,7 @@
   # affected cell, or hexadecimal colors like #ff00ff.
   #vi_mode_cursor:
   #  text: CellBackground
-  #  cursor: CellForeground
+  cursor: #ff0ff
 
   # Search colors
   #
@@ -394,16 +394,16 @@
   # When set to `true`, selected text will be copied to the primary clipboard.
   #save_to_clipboard: false
 
-#cursor:
+ cursor:
   # Cursor style
-  #style:
+   style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    #shape: Block
+     shape: Beam
 
     # Cursor blinking state
     #
